@@ -232,3 +232,64 @@ body {
 
 .badge.success { background-color: rgba(16, 185, 129, 0.15); color: #10b981; }
 .badge.processing { background-color: rgba(245, 158, 11, 0.15); color: #f59e0b; }
+
+/* Audit Vault Container */
+.ledger-view {
+    background: rgba(13, 44, 84, 0.4);
+    border: 1px solid #00ffcc;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.panel-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+/* Audit Table Styling */
+.deposit-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #e0e0e0;
+}
+
+.deposit-table thead tr {
+    border-bottom: 2px solid #00ffcc;
+}
+
+.deposit-table th {
+    text-align: left;
+    padding: 12px;
+    font-size: 0.85rem;
+    color: #00ffcc;
+    text-transform: uppercase;
+}
+
+.deposit-table td {
+    padding: 12px;
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(0, 255, 204, 0.1);
+}
+
+/* Status Badge Styles */
+.badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.badge.success {
+    background: rgba(0, 255, 204, 0.2);
+    color: #00ffcc;
+}
+
+.badge.processing {
+    background: rgba(245, 158, 11, 0.2);
+    color: #f59e0b;
+}
