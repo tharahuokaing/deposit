@@ -19,7 +19,8 @@
             </div>
             <div class="action-buttons">
                 <button id="refreshDataBtn" class="btn-secondary">Re-Synchronize</button>
-                <a href="#" class="btn-primary">New Placement</a>
+                <!-- This link can trigger your addVaultRecord function in the future -->
+                <a href="#" class="btn-primary" onclick="event.preventDefault(); addVaultRecord('NEW-ID', 'Retail', 'Manual', '0');">New Placement</a>
             </div>
         </header>
 
@@ -56,7 +57,7 @@
                     <h3>Deposit Asset Class Distribution</h3>
                 </div>
                 <div class="distribution-list" id="distributionContainer">
-                    <!-- Loaded dynamically via JavaScript -->
+                    <!-- Loaded dynamically via ledger.js -->
                 </div>
             </section>
 
@@ -78,7 +79,7 @@
                             </tr>
                         </thead>
                         <tbody id="depositLogBody">
-                            <!-- Dynamic Table Rows populated via JavaScript -->
+                            <!-- Loaded dynamically via ledger.js -->
                         </tbody>
                     </table>
                 </div>
@@ -87,8 +88,11 @@
         </div>
     </div>
 
+    <!-- Scripts loaded in order of dependency -->
+    <script src="ledger.js"></script>
     <script src="deposit.js"></script>
     <script src="deposit_vault.js"></script>
     
 </body>
-</html>
+                    </html>
+    
