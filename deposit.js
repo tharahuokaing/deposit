@@ -15,8 +15,8 @@
     ];
 
     let recentInflows = [
-        { id: "DEP-LN-9901", tier: "Corporate Wholesale", route: "Bakong Network Sweep", volume: "$0", status: "Success" },
-        { id: "DEP-LN-9905", tier: "Corporate Wholesale", route: "Real-time Gross Settlement", volume: "$0", status: "Success" }
+        { id: "DEP-LN-9901", tier: "Corporate Wholesale", route: "Bakong Network Sweep", volume: "$576,455,000", status: "Success" },
+        { id: "DEP-LN-9905", tier: "Corporate Wholesale", route: "Real-time Gross Settlement", volume: "$576,455,000", status: "Success" }
     ];
 
     // 2. Rendering Logic
