@@ -15,7 +15,7 @@
     ];
 
     let recentInflows = [
-        { id: "DEP-LN-9901", tier: "Corporate Wholesale", route: "Bakong Network Sweep", volume: "362,500,000", status: "Success" },
+        { id: "DEP-LN-9901", tier: "Corporate Wholesale", route: "Bakong Network Sweep", volume: "$362,500,000", status: "Success" },
         { id: "DEP-LN-9905", tier: "Corporate Wholesale", route: "Real-time Gross Settlement", volume: "$362,500,000", status: "Success" }
     ];
 
